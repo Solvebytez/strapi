@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_course_sections",
+  "info": {
+    "displayName": "courseSection",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "annaoucement": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

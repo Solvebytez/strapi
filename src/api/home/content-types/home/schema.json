@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Home",
+      "unique": true
+    },
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero"
+    },
+    "homeServices": {
+      "displayName": "servicesPreview",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.services-preview",
+      "required": true
+    },
+    "courseSection": {
+      "displayName": "courseSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.course-section"
+    },
+    "postSelection": {
+      "displayName": "postSelection",
+      "type": "component",
+      "repeatable": false,
+      "component": "post.post-selection"
+    },
+    "dynaminHome": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.news-letter",
+        "layout.mission"
+      ]
+    },
+    "homeSeo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo-information.seo"
+    }
+  }
+}

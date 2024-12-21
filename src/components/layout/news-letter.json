@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_news_letters",
+  "info": {
+    "displayName": "NewsLetter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text"
+    }
+  }
+}

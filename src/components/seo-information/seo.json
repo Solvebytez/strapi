@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_information_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}
